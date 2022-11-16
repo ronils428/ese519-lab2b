@@ -1,1 +1,14 @@
-We check The I2C pins' waveforms on the oscilloscope. Just confirm that I2C communication is active (taking place) between the QT Py (KB2040 and sensor (APDS-9960). This can be done by flashinging the 'firefly' code on to the QT Py, which in ture is connected to the sensor (APDS-9960). We connect the first probe to SCL (CLK or clock) while the associated black wire to ground of the microcontroller. Similarly, the second probe is connected to SDA while the associated black wire to ground.
+For this part, we were asked to create a 'sequencer' that allows you to record BOOT button presses and play them on the Neopixel, and also play a sequence of read/write commands. You should be able to:
+
+record at a least a few seconds of button input to your RP2040 (in RAM)
+replay a recorded sequence on your NeoPixel
+loop a recording
+save a recording to your laptop (the Python Serial library is one way to do this)
+play a recording from your laptop
+record 'macros' (a sequence of console commands) based on keystrokes in your serial console
+hand-edit a list of register read/write commands on your laptop, and play them on the RP2040
+include multiple I/O sources in a recording, and remap among the following:
+inputs: BOOT button, console commands, register read/write commands
+outputs: neopixel color, neopixel brightness, data over serial, register read/write commands
+
+Our code does exactly that - more information and video demo can be found at my partner's submission: https://github.com/Aurunima/ESE5190-Fall22-Lab2B

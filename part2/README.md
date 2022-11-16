@@ -8,4 +8,4 @@ Create a REPL to let you read and write RP2040 registers from a console. You sho
 
 Our demo below shows us writing to the register 0x40030000, the BUS_PRIORITY register with a value of 1. After writing, we confirm that we can read the register again and it displays the correct value.
 
-![]()
+![](https://github.com/ronils428/ese519-lab2b/blob/main/part2/part%202.gif)

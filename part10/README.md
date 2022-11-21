@@ -55,4 +55,6 @@ We will give options to display:
 - If the circuit works well, we would like to involve the use of sensors later on.
 - Not finalised but could use the APDS-9960 and/or other sensors in the lab
 
-##### Accepting all kinds of weird and fun suggestions (that do not damage the microcontroller and sensors) :D
+##### Accepting all kinds of weird and fun suggestions (that do not damage the microcontroller and sensors)
+
+# Please check out my partner's repo for images and gifs - https://github.com/Aurunima/ESE5190-Fall22-Lab2B/tree/main/lab/10_protoboard
